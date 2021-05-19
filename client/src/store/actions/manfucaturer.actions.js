@@ -1,0 +1,9 @@
+export const GET_MANUFACTURERS = 'GET_MANUFACTURERS'
+export const FETCH_MANUFACTURERS_SUCCESS = 'FETCH_MANUFACTURERS_SUCCESS'
+export const FETCH_MANUFACTURERS_FAILED = 'FETCH_MANUFACTURERS_FAILED'
+
+export const getManufacturers = () => {
+    return {
+        type: GET_MANUFACTURERS
+    }
+}
